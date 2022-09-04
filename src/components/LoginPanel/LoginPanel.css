@@ -1,0 +1,72 @@
+.login-container {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 63, 60);
+	color: rgb(156, 238, 234);
+}
+
+.login-frame {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 300px;
+	font-weight: 300;
+	padding: 2.5rem;
+	border-radius: 0.2rem;
+	background-color: rgb(0, 46, 44);
+	color: rgb(156, 238, 234);
+	/* background-color: rgb(103, 197, 191); */
+	/* color: rgb(0, 63, 60); */
+}
+
+/* LOGIN FORM */
+
+.form-label {
+	font-size: 1.1rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 0.5rem;
+}
+
+.form-input {
+	font-size: 1.2rem;
+	font-family: inherit;
+	font-weight: 300;
+	padding: 0.5rem;
+	border: 0;
+	outline: 0;
+	border-radius: 0.2rem;
+	background-color: rgb(0, 70, 66);
+	color: inherit;
+}
+
+.form-input:focus {
+	background-color: rgb(0, 37, 36);
+	box-shadow: 0px 0px 3px 0px rgb(156, 238, 234);
+}
+
+.form-button {
+	font-size: 1.2rem;
+	font-family: inherit;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 1.5rem;
+	border: 0;
+	padding: 0.5rem;
+	padding-bottom: 0.9rem;
+	border-radius: 0.2rem;
+	background-color: rgb(0, 95, 90);
+	color: inherit;
+	cursor: pointer;
+	/* color: rgb(106, 192, 188); */
+}
+
+.form-button:hover {
+	background-color: rgb(0, 116, 110);
+}
+
+.form-button:active {
+	background-color: rgb(0, 80, 77);
+}
